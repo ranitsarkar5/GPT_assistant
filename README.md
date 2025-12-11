@@ -1,4 +1,4 @@
-# SOHAN AI
+# GPT_asistant
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://groqdemo.streamlit.app/)
 
@@ -66,4 +66,5 @@ Contributions are welcome to enhance the app, fix bugs, or improve documentation
 
 
 Please feel free to fork the repository, make changes, and submit a pull request.
+
 
