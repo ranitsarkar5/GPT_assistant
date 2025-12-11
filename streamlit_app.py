@@ -16,7 +16,7 @@ def icon(emoji: str):
 
 icon("🏎️")
 
-st.subheader("SOHAN AI", divider="rainbow", anchor=False)
+st.subheader("GPT_assistant", divider="rainbow", anchor=False)
 
 client = Groq(
     api_key=st.secrets["GROQ_API_KEY"],
@@ -119,4 +119,5 @@ if prompt := st.chat_input("Enter your prompt here..."):
         # Handle the case where full_response is not a string
         combined_response = "\n".join(str(item) for item in full_response)
         st.session_state.messages.append(
+
             {"role": "assistant", "content": combined_response})
